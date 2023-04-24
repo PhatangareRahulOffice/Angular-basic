@@ -1,0 +1,129 @@
+<!-- <p>collage works!</p>
+<style>
+    .demo{
+color:green
+
+}
+.demo:hover{
+    color:red;
+    font-size: 30px;
+}
+</style>
+<h2 class="demo"> Hello This is style Demo  </h2> -->
+<!-- <label for=""> This interpolation</label>
+<input type="text" value={{name}}>
+<br/>
+<br/>
+<br/>
+
+
+<label for=""> This Property Binding</label>
+<input type="text" [value]=name> -->
+
+
+
+
+
+    <!--  Simple If condition -->
+<!-- <h1 *ngIf="data;then ifBlock else elseBlock " > 
+</h1>
+
+<ng-template #ifBlock>
+    <h1>Angular Data Show By If Condtion</h1>
+
+</ng-template>
+<ng-template #elseBlock>
+    <h1>OOPs Its not true</h1>
+</ng-template> -->
+
+<!-- Data type cheack condition -->
+
+<!-- <h1 *ngIf=" data1 === 'yes';then ifcon else elsecon "></h1>
+
+<ng-template #ifcon >
+    <h2>Data type Check</h2>
+</ng-template>
+
+<ng-template #elsecon>
+    <h2> OOps Data type cant check</h2>
+</ng-template> -->
+
+<!-- Else conditon -->
+<!-- <ng-template [ngIf]="color=== 'red' " >
+    <h1 style="color: red">Red Color</h1>
+</ng-template>
+<ng-template [ngIf]="color === 'green' " >
+    <h1 style="color:green;">Green Color</h1>
+</ng-template>
+<ng-template [ngIf]="color === 'blue' " >
+    <h1 style="color: blue;">Blue Color</h1>
+</ng-template> -->
+
+
+<!-- Switch Case  -->
+<!-- <div [ngSwitch]="color">
+    Switch Case
+    <h1 *ngSwitchCase="'blue'" style="color:blue" >Blue Color</h1>
+    <h1 *ngSwitchCase="'red'" style="color: red;"> Red Color</h1>
+    <h1 *ngSwitchCase=" 'green' " style="color: green;"> Green Color</h1>
+    <h1 *ngSwitchCase="'orange'" style="color: orange;"> Orange Color</h1>
+    <h1 *ngSwitchDefault> Default Color</h1>
+
+</div> -->
+
+
+
+<!--  For loop  -->
+<!-- <h1 style="color:red;text-align:center"> {{title}} </h1> -->
+<!-- for normal for loop -->
+<!-- <h3 *ngFor="let data of users"> {{data}}</h3> -->
+<!-- for array in object -->
+
+<!-- <h4  *ngFor="let data1 of detabase" style="text-align:center; color:green; font-size: 20px; "  >
+      user Name:{{data1.name}}  <br/>
+      user Email:{{data1.email}} <br/>
+      user Phone: {{ data1.phone}} 
+    </h4> -->
+
+    <!-- nested for loop -->
+    <!-- <ul *ngFor="let data1 of detabase">
+        <li>name : {{data1.name}} </li>
+        <li> Phone No :{{data1.phone}} </li>
+<br/>
+        <ul *ngFor="let account of data1.accounts">
+            <ul>
+                {{account}}
+            </ul>
+        </ul>
+    </ul> -->
+
+    <!--  style Binding -->
+    <!-- <h1 style="color: red;"> style Binding</h1> -->
+
+    <!-- <div  [style.backgroundColor]="bgColor">
+
+
+        <h2 [style.color]=" color "> Style binding</h2>
+
+        <button (click)="updatePaint()">
+        updateColor
+        </button>
+        <button (click)="updateBgColor()">cheng bg Color</button>
+    </div> -->
+  
+    
+    <!--  Toggle case Start -->
+<div  style="text-align:center;  margin: 10px;"  >
+    <h1  *ngIf="display">Welcome To SpringUp</h1>
+    <button (click)="toggle()" style="padding: 5px; margin: 20px;"> Toggle</button>
+
+</div> 
+    <!-- Toggle case End -->
+
+    <!-- Todo list Start -->
+    <!-- <div style="width:500px;border: solid 1px black; padding: 150px; margin-left: 250px;">
+        <input style="padding: 10px;margin:100px;" type="text" placeholder="Enter the Task">
+        <button (click)="todoApp(todo.value)" ></button>
+         <button  (click)="addTask(task.value)" style="background-color: darkcyan; color: aliceblue; padding: 7px;"> Add Task </button> 
+    </div> -->
+    <!-- Todo list End -->
